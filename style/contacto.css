@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{   
+    background-color: beige;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.formulario{
+    margin: 20px;
+    padding: 20px;
+    background-image:url(../img/GrupoWitzig_IMG-05.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.nombre{
+    margin: 10px;
+}
+.email{
+    margin: 10px;
+}
+.telefono{
+    margin: 10px;
+}
+.pie{
+    list-style: none;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    background-color: #08bb85;
+}

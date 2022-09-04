@@ -38,13 +38,17 @@ header ul li{
 }   
 
 /* HERO */
-#hero{
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.caja1 img{
+    width: fit-content;
+    height: fit-content;
+}
 /* Productos */
 
 #productos{
@@ -106,22 +110,6 @@ header ul li{
 
 }
 /* FOOTER */
-footer{
-  
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 15px;
- 
-    }
-
-footer p{
-    padding: 10px 0px;
-    text-align: center;
-    font-size: 12px;
-}
 
  @media (min-width: 1200px){
     .container__producto{
