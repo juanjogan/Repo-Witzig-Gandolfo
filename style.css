@@ -5,8 +5,9 @@
     margin: 0;
     padding: 0;
     
-}
+}s
  body{
+    width: 100%;
     background: rgb(10,230,76);
     background: linear-gradient(90deg, rgba(10,230,76,1) 0%, rgba(9,9,121,1) 55%, rgba(0,212,255,1) 100%);;
  }
@@ -37,18 +38,17 @@ header ul li{
 
 }   
 
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: serif;
+    color: red;
+}
+
 /* HERO */
 
-.caja1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-}
-.caja1 img{
-    width: fit-content;
-    height: fit-content;
-}
+
 /* Productos */
 
 #productos{

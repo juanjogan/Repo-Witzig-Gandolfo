@@ -4,16 +4,20 @@
    }
 
    header{   
-    background-color: beige;
-    height: 70px;
+    border: white;
+    height: 90px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 15px;
+    margin: 10px 0px;
+    background: rgb(9,215,30);
+    background: linear-gradient(0deg, rgba(9,215,30,1) 0%, rgba(0,88,32,1) 99%);
 }
 header img{
     width: 50px;
+       
 }
 
 header ul{
@@ -21,43 +25,44 @@ header ul{
     margin: 0;
     list-style-type: none;
     display: flex;
-     
+         
 }
 header ul li{
     padding: 0px 5px;
     font-size: 12px;
 
 }  
-.bloques__proyectos{
-    display: flex;
-    background-color: #2dc57e;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
+body{
+    background: rgb(187,195,187);
+    background: linear-gradient(0deg, rgba(187,195,187,1) 0%, rgba(241,249,244,1) 99%);
 }
-.proyectos{
-    width: 350px;
-    height: 350px;
-    background-color: red;
-    margin: 15px;
+nav{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );;
 }
-.pie{
-   display: flex;
-    background-image: url(../img/GrupoWitzig_IMG-05.jpg);
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
+main{
+    margin: 20px;
 }
-.pie__proyectos{
-    width: 200px;
-    height: 200px;
-    margin: 15px;
-    padding: 10px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: black;
+main img{
+    height: 400px;
+}
+.card-body{
+    background: rgb(187,195,187);
+    background: linear-gradient(0deg, rgba(187,195,187,1) 0%, rgba(241,249,244,1) 99%);
+}
+
+.card:hover{
+    transform: translateY(-3px);
+    transition: all 0.4s ease;
+}
+
+footer{
+    background: rgb(10,10,10);
+    background: linear-gradient(0deg, rgba(10,10,10,1) 26%, rgba(199,209,203,1) 88%);
+    margin: 10px 0px;
+    padding: 15px;
 }

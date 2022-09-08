@@ -1,0 +1,23 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjogan/Repo-Witzig-Gandolfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjogan/Repo-Witzig-Gandolfo/issues"
+  },
+  "homepage": "https://github.com/juanjogan/Repo-Witzig-Gandolfo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
